@@ -90,9 +90,9 @@ class chicagoCitationPlugin extends Omeka_Plugin_AbstractPlugin
 		if ($source) {
 			$citation .= "“$source.” ";
 		}
-		$url = html_escape(record_url('item', null, true));
-	/// Chicago-style item citation: access date and URL
-		$citation .= __('accessed %1$s, %2$s.', $accessed, $url);
+	// 	$url = html_escape(record_url('item', null, true));
+	// /// Chicago-style item citation: access date and URL
+	// 	$citation .= __('accessed %1$s, %2$s.', $accessed, $url);
 		return $citation;
 	}
 }
