@@ -86,6 +86,10 @@ class chicagoCitationPlugin extends Omeka_Plugin_AbstractPlugin
 		$citation .= "Repository Name";
 
 		$accessed = format_date(time(), Zend_Date::DATE_LONG);
+		$source = strip_formatting(metadata('item', array('Dublin Core', 'Source')));
+		if ($source) {
+			$citation .= "“$source.” ";
+		}
 		$url = html_escape(record_url('item', null, true));
 	/// Chicago-style item citation: access date and URL
 		$citation .= __('accessed %1$s, %2$s.', $accessed, $url);
