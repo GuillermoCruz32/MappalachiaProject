@@ -1174,12 +1174,12 @@ Table of Contents
     background-color: #3C8F8C;
     color: #6A7E88; }
   .summer h1, .summer #site-title a {
-    color: #13BBBB; }
+    color: #07811B; }
   .summer input[type=submit], .summer button, .summer .button, .summer .show-advanced.button {
     background-color: #8ECAC8; }
   .summer input[type=text], .summer input[type=password], .summer textarea {
     background-color: #D0EEEE;
-    color: #13BBBB; }
+    color: #07811B; }
   .summer a:link {
     color: #EB4C0F; }
   .summer a:visited {
@@ -1193,7 +1193,7 @@ Table of Contents
     .summer nav.top li:hover a {
       color: #3C8F8C; }
     .summer nav.top a:link, .summer nav.top a:visited {
-      color: #13BBBB; }
+      color: #07811B; }
     .summer nav.top a:active, .summer nav.top a:hover {
       color: #3C8F8C; }
     .summer nav.top .nav-item > a:focus,
@@ -1203,7 +1203,7 @@ Table of Contents
     .summer nav.top .sub-nav {
       background-color: #FCF283; }
       .summer nav.top .sub-nav li > a:link, .summer nav.top .sub-nav li > a:visited {
-        color: #13BBBB; }
+        color: #07811B; }
       .summer nav.top .sub-nav li > a:hover {
         color: #3C8F8C; }
     .summer nav.top .sub-nav a:hover {
