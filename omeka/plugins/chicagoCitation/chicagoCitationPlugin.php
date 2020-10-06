@@ -32,6 +32,11 @@ class chicagoCitationPlugin extends Omeka_Plugin_AbstractPlugin
 		} else {
 			$citation .= "Unknown. ";
 		}
+
+		$title = strip_formatting(metadata('item', array('Dublin Core', 'Title')));
+		if ($title) {
+			$citation .= "<i>$title</i>, " ;
+		}
 	/// Get year
 		$date = strip_formatting(metadata('item', array('Dublin Core', 'Date')));
 		if ($date) {
@@ -76,23 +81,21 @@ class chicagoCitationPlugin extends Omeka_Plugin_AbstractPlugin
 				default:
 					$date = $date;
 			}
-				$citation .= "$date. ";
+				$citation .= "$date, ";
 		}
-		$title = strip_formatting(metadata('item', array('Dublin Core', 'Title')));
-		if ($title) {
-			$citation .= "“$title.” ";
-		}
-	/// Chicago-style item Publisher and Archive
-		$citation .= "Repository Name";
 
-		$accessed = format_date(time(), Zend_Date::DATE_LONG);
+	/// Chicago-style item Publisher and Archive
+		$citation .= "Mappalachia, ";
+
 		$source = strip_formatting(metadata('item', array('Dublin Core', 'Source')));
 		if ($source) {
-			$citation .= "“$source.” ";
+			$citation .= "$source, ";
 		}
-	// 	$url = html_escape(record_url('item', null, true));
-	// /// Chicago-style item citation: access date and URL
-	// 	$citation .= __('accessed %1$s, %2$s.', $accessed, $url);
+
+		$accessed = format_date(time(), Zend_Date::DATE_LONG);
+		$url = html_escape(record_url('item', null, true));
+	/// Chicago-style item citation: access date and URL
+		$citation .= __('accessed %1$s, %2$s.', $accessed, $url);
 		return $citation;
 	}
 }
