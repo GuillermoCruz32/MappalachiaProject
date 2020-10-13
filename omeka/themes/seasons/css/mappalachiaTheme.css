@@ -1178,12 +1178,12 @@ Table of Contents
   .summer input[type=submit], .summer button, .summer .button, .summer .show-advanced.button {
     background-color: #07811B; }
   .summer input[type=text], .summer input[type=password], .summer textarea {
-    background-color: #90EE90;
+    background-color: #D0EEEE;
     color: #07811B; }
   .summer a:link {
     color: #000000; }
   .summer a:visited {
-    color: #07811b; }
+    color: #000000; }
   .summer a:hover, .summer a:active, .summer a:focus {
     color: #FF0000; }
   .summer header {
@@ -1236,11 +1236,11 @@ Table of Contents
   .summer #content .pagination_previous a, .summer #content .pagination_next a {
     background-color: #07811B; }
   .summer #content .pagination a:link, .summer #content .pagination a:visited {
-    color: #90EE90; }
+    color: #D0EEEE; }
   .summer #content .pagination a:hover, .summer #content .pagination a:active {
     color: #fff; }
   .summer #content .pagination input[type=text] {
-    border-color: #90EE90; }
+    border-color: #D0EEEE; }
   .summer #content nav .pagination_list {
     background-color: #07811B; }
   .summer #content .items-nav a:link, .summer #content .items-nav a:visited {
@@ -1274,7 +1274,7 @@ Table of Contents
   .summer #exhibit-page-navigation a, .summer #exhibit-page-navigation span {
     background-color: #fff; }
   .summer th, .summer td {
-    border-color: #90EE90; }
+    border-color: #D0EEEE; }
   /* !---------- Autumn Styles ---------- */
   .autumn body {
     background-color: #86443C;
