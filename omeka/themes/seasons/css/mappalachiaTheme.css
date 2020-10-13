@@ -1181,7 +1181,7 @@ Table of Contents
     background-color: #D0EEEE;
     color: #07811B; }
   .summer a:link {
-    color: #EB4C0F; }
+    color: #000000; }
   .summer a:visited {
     color: #F09999; }
   .summer a:hover, .summer a:active, .summer a:focus {
@@ -1212,7 +1212,7 @@ Table of Contents
   .summer #top-nav a:focus {
     color: #3C8F8C; }
   .summer #intro {
-    color: #EB4C0F; }
+    color: #000000; }
   .summer #content,
   .summer #secondary-nav .current a,
   .summer #secondary-nav a.current,
@@ -1223,9 +1223,9 @@ Table of Contents
   .summer #home #content > div {
     border-color: #07811B; }
   .summer #item h1 {
-    color: #EB4C0F; }
+    color: #000000; }
   .summer #content > h1 {
-    color: #EB4C0F; }
+    color: #000000; }
   .summer #content h2 {
     border-color: #ffe0e0; }
   .summer #content > div, .summer #content #primary > div, .summer #content #sidebar > div,
@@ -1244,7 +1244,7 @@ Table of Contents
   .summer #content nav .pagination_list {
     background-color: #07811B; }
   .summer #content .items-nav a:link, .summer #content .items-nav a:visited {
-    color: #EB4C0F; }
+    color: #000000; }
   .summer #content .items-nav a:active, .summer #content .items-nav a:hover {
     color: #FF0000; }
   .summer #content .item-img {
