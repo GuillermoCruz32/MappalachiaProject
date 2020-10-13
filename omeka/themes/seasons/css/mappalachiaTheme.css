@@ -1176,7 +1176,7 @@ Table of Contents
   .summer h1, .summer #site-title a {
     color: #07811B; }
   .summer input[type=submit], .summer button, .summer .button, .summer .show-advanced.button {
-    background-color: #8ECAC8; }
+    background-color: #07811B; }
   .summer input[type=text], .summer input[type=password], .summer textarea {
     background-color: #D0EEEE;
     color: #07811B; }
@@ -1221,7 +1221,7 @@ Table of Contents
   .summer .exhibit-section-nav .current a {
     background-color: #FDFFE2; }
   .summer #home #content > div {
-    border-color: #8ECAC8; }
+    border-color: #07811B; }
   .summer #item h1 {
     color: #EB4C0F; }
   .summer #content > h1 {
@@ -1230,11 +1230,11 @@ Table of Contents
     border-color: #ffe0e0; }
   .summer #content > div, .summer #content #primary > div, .summer #content #sidebar > div,
   .summer #content #advanced-search-form > div, .summer #content #exhibit-pages {
-    border-color: #8ECAC8; }
+    border-color: #07811B; }
   .summer #content #primary > div, .summer #content #sidebar > div {
     background-color: #fff; }
   .summer #content .pagination_previous a, .summer #content .pagination_next a {
-    background-color: #8ECAC8; }
+    background-color: #07811B; }
   .summer #content .pagination a:link, .summer #content .pagination a:visited {
     color: #D0EEEE; }
   .summer #content .pagination a:hover, .summer #content .pagination a:active {
@@ -1242,7 +1242,7 @@ Table of Contents
   .summer #content .pagination input[type=text] {
     border-color: #D0EEEE; }
   .summer #content nav .pagination_list {
-    background-color: #8ECAC8; }
+    background-color: #07811B; }
   .summer #content .items-nav a:link, .summer #content .items-nav a:visited {
     color: #EB4C0F; }
   .summer #content .items-nav a:active, .summer #content .items-nav a:hover {
@@ -1254,17 +1254,17 @@ Table of Contents
     background-color: transparent;
     box-shadow: transparent 0 0 0; }
   .summer #search-results th {
-    background-color: #8ECAC8; }
+    background-color: #07811B; }
   .summer #search-filters li, .summer #item-filters li {
     background-color: #fff; }
   .summer .page #content {
-    border-color: #8ECAC8; }
+    border-color: #07811B; }
   .summer footer {
     background-color: #07811B; }
   .summer footer p {
     color: #fff; }
   .summer .exhibit-page-nav {
-    background-color: #8ECAC8; }
+    background-color: #07811B; }
   .summer .exhibit-page-nav .current, .summer .exhibit-child-nav .current {
     background-color: rgba(0, 0, 0, 0.1); }
   .summer .exhibit-page-nav a:link, .summer .exhibit-page-nav a:visited {
