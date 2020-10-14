@@ -1178,7 +1178,7 @@ Table of Contents
   .summer input[type=submit], .summer button, .summer .button, .summer .show-advanced.button {
     background-color: #07811B; }
   .summer input[type=text], .summer input[type=password], .summer textarea {
-    background-color: #D0EEEE;
+    background-color: #CFFAD7;
     color: #07811B; }
   .summer a:link {
     color: #000000; }
@@ -1236,17 +1236,17 @@ Table of Contents
   .summer #content .pagination_previous a, .summer #content .pagination_next a {
     background-color: #07811B; }
   .summer #content .pagination a:link, .summer #content .pagination a:visited {
-    color: #D0EEEE; }
+    color: #CFFAD7; }
   .summer #content .pagination a:hover, .summer #content .pagination a:active {
     color: #fff; }
   .summer #content .pagination input[type=text] {
-    border-color: #D0EEEE; }
+    border-color: #CFFAD7; }
   .summer #content nav .pagination_list {
     background-color: #07811B; }
   .summer #content .items-nav a:link, .summer #content .items-nav a:visited {
     color: #000000; }
   .summer #content .items-nav a:active, .summer #content .items-nav a:hover {
-    color: #FF0000; }
+    color: #298218; }
   .summer #content .item-img {
     border-color: #90EE90; }
   .summer #content div.hTagcloud {
@@ -1260,7 +1260,7 @@ Table of Contents
   .summer .page #content {
     border-color: #07811B; }
   .summer footer {
-    background-color: #07811B; }
+    background-color: #fcf283; }
   .summer footer p {
     color: #fff; }
   .summer .exhibit-page-nav {
@@ -1274,7 +1274,7 @@ Table of Contents
   .summer #exhibit-page-navigation a, .summer #exhibit-page-navigation span {
     background-color: #fff; }
   .summer th, .summer td {
-    border-color: #D0EEEE; }
+    border-color: #CFFAD7; }
   /* !---------- Autumn Styles ---------- */
   .autumn body {
     background-color: #86443C;
