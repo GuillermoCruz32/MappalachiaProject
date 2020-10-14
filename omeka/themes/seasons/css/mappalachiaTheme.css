@@ -1172,7 +1172,7 @@ Table of Contents
   /* !---------- Summer Styles ---------- */
   .summer body {
     background-color: #07811B;
-    color: #29821A; }
+    color: #000000; }
   .summer h1, .summer #site-title a {
     color: #07811B; }
   .summer input[type=submit], .summer button, .summer .button, .summer .show-advanced.button {
