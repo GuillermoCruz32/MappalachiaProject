@@ -303,13 +303,16 @@ Table of Contents
     text-align: center;
     margin: 0;
     padding: 24px 0; }
-  #site-title img , #site-title img:hover{
+  #site-title img {
     max-width: calc(100% - 16px);
     height: auto;
     vertical-align: top;
     margin: auto;
+     }
+  #site-title img:hover {
     text-decoration: none;
-    color: white; }
+    color: white;
+  }
   #search-container {
     padding: 0 16px 24px; }
     #search-container:after {
