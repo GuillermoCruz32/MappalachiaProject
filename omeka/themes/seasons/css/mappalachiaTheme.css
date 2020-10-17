@@ -309,7 +309,7 @@ Table of Contents
     vertical-align: top;
     margin: auto;
      }
-  #site-title a:hover, #site_title a:focus {
+  #site-title a:hover {
     text-decoration: none;
     color: white;
   }
