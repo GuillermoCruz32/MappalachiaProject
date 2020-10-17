@@ -308,12 +308,8 @@ Table of Contents
     height: auto;
     vertical-align: top;
     margin: auto;
+    background-color: white;
      }
-  #site-title img a:hover {
-    text-decoration: none;
-    color: white;
-    all:internal;
-  }
   #search-container {
     padding: 0 16px 24px; }
     #search-container:after {
