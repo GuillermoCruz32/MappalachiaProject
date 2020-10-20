@@ -1228,7 +1228,8 @@ Table of Contents
   .summer #item h1 {
     color: #000000; }
   .summer #content > h1 {
-    color: #000000; }
+    color: #000000;
+    font-family: "Amatic SC", sans-serif;}
   .summer #content h2 {
     border-color: #ffe0e0; }
   .summer #content > div, .summer #content #primary > div, .summer #content #sidebar > div,
