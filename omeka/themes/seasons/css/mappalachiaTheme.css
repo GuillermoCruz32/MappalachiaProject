@@ -27,7 +27,7 @@ Table of Contents
 */
   /* !---------- General HTML Elements ---------- */
   body {
-    font-family: "Roboto Slab", serif;
+    font-family: "Roboto Slab";
     font-weight: 300;
     font-size: 16px;
     line-height: 24px;
@@ -1229,7 +1229,7 @@ Table of Contents
     color: #000000; }
   .summer #content > h1 {
     color: #000000;
-    font-family: "Amatic SC", sans-serif;}
+    font-family: "Amatic SC";}
   .summer #content h2 {
     border-color: #ffe0e0; }
   .summer #content > div, .summer #content #primary > div, .summer #content #sidebar > div,
