@@ -13,7 +13,7 @@ $totalItems = metadata('collection', 'total_items');
     <h2><?php echo __('Collection Items'); ?></h2>
     <?php if ($totalItems > 0): ?>
         <?php foreach (loop('items') as $item): ?>
-        <?php $itemTitle = metadata('item', array('Dublin Core', 'Title'); ?>
+        <?php $itemTitle = metadata('item', array('Dublin Core', 'Title')); ?>
         <div class="item hentry">
             <h3><?php echo link_to_item($itemTitle, array('class' => 'permalink')); ?></h3>
 
