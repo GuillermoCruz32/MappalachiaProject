@@ -15,7 +15,8 @@ class Geolocation_View_Helper_GeolocationMapSingle extends Zend_View_Helper_Abst
             $center['show']         = true;
             if ($hasBalloonForMarker) {
                 $titleLink = link_to_item(metadata($item, array('Dublin Core', 'Title'), array(), $item), array(), 'show', $item);
-                $thumbnailLink = !(item_image('thumbnail')) ? '' : link_to_item(item_image('thumbnail',array(), 0, $item), array(), 'show', $item);
+                $itemTitle = metadata('item', array('Dublin Core', 'Title'), array('no_escape' => true));
+                $thumbnailLink = !(item_image('thumbnail')) ? '' : link_to_item(item_image(null, array('alt' => $itemTitle)), array(), 'show', $item);
                 $description = metadata($item, array('Dublin Core', 'Description'), array('snippet'=>150), $item);
                 $center['markerHtml'] = '<div class="' . $markerHtmlClassName . '">'
                                       . '<div class="geolocation_balloon_title">' . $titleLink . '</div>'
