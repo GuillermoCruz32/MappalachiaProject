@@ -15,7 +15,7 @@
             </BalloonStyle>
         </Style>
         <?php
-        foreach(loop('item') as $item):        
+        foreach(loop('item') as $item):
         $location = $locations[$item->id];
         ?>
         <Placemark>
@@ -23,13 +23,14 @@
             <namewithlink><![CDATA[<?php echo link_to_item(metadata('item' , array('Dublin Core', 'Title')), array('class' => 'view-item')); ?>]]></namewithlink>
             <Snippet maxLines="2"><![CDATA[<?php
             echo metadata('item', array('Dublin Core', 'Description'), array('snippet' => 150));
-            ?>]]></Snippet>    
-            <description><![CDATA[<?php 
-            // @since 3/26/08: movies do not display properly on the map in IE6, 
-            // so can't use display_files(). Description field contains the HTML 
+            ?>]]></Snippet>
+            <description><![CDATA[<?php
+            // @since 3/26/08: movies do not display properly on the map in IE6,
+            // so can't use display_files(). Description field contains the HTML
             // for displaying the first file (if possible).
             if (metadata($item, 'has thumbnail')) {
-                echo link_to_item(item_image('thumbnail'), array('class' => 'view-item'));                
+                $itemTitle = metadata('item', array('Dublin Core', 'Title'), array('no_escape' => true));
+                echo link_to_item(item_image(null, array('alt' => $itemTitle)));                
             }
             ?>]]></description>
             <Point>
