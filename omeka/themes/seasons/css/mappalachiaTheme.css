@@ -29,7 +29,7 @@ Table of Contents
   body {
     font-family: "Roboto Slab";
     font-weight: 300;
-    font-size: 1.8rem;
+    font-size: 1.125rem;
     line-height: 24px;
     word-wrap: break-word;
     height: 100%; }
@@ -54,20 +54,20 @@ Table of Contents
     border: 1px blue dashed; }
   /* !---------- Headings ---------- */
   h1 {
-    font-size: 3.2rem;
+    font-size: 32px;
     line-height: 48px; }
   h2 {
-    font-size: 2.4rem;
+    font-size: 24px;
     line-height: 36px; }
   h3 {
-    font-size: 2.0rem;
+    font-size: 20px;
     line-height: 30px;
     font-weight: 500; }
   h4 {
-    font-size: 1.8rem;
+    font-size: 18px;
     line-height: 27px; }
   h5, h6 {
-    font-size: 1.6rem;
+    font-size: 16px;
     line-height: 24px; }
   p, ol, ul {
     margin-bottom: 24px; }
@@ -99,7 +99,7 @@ Table of Contents
     border: 1px solid #dfe2e2;
     line-height: 36px;
     height: 36px;
-    font-size: 1.6rem; }
+    font-size: 16px; }
   input[type=submit], button, .button {
     color: #fff;
     text-transform: uppercase;
@@ -297,7 +297,7 @@ Table of Contents
       float: left; }
   /* !---------- Header ---------- */
   #site-title {
-    font-size: 3.2rem;
+    font-size: 32px;
     line-height: 48px;
     font-weight: 300;
     text-align: center;
@@ -328,7 +328,7 @@ Table of Contents
       border-radius: 0px; }
     #search-form input[type=text] {
       width: 100%;
-      font-size: 1.4rem;
+      font-size: 14px;
       padding-right: 48px; }
     #search-form button {
       width: 36px;
@@ -422,7 +422,7 @@ Table of Contents
       height: 0px;
       clear: both; }
     #content > h1 {
-      font-size: 2.4rem;
+      font-size: 24px;
       line-height: 48px;
       text-transform: uppercase;
       border-top: 0;
@@ -837,7 +837,7 @@ Table of Contents
   .exhibits #exhibit-pages.top li {
     max-width: 40%; }
   .exhibits.show #content h1 {
-    font-size: 3.2rem; }
+    font-size: 32px; }
   .exhibits.show #content #primary:first-child {
     margin-top: 24px; }
   .exhibits.show #content #primary p, .exhibits.show #content #primary ol, .exhibits.show #content #primary ul {
@@ -1645,7 +1645,7 @@ Table of Contents
     text-align: center; }
   /* !---------- Home ---------- */
   #home #content #intro {
-    font-size: 2.4rem;
+    font-size: 24px;
     line-height: 36px;
     margin-bottom: 18px; }
     #home #content #intro p {
