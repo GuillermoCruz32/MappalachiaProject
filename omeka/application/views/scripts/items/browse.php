@@ -32,7 +32,8 @@ $sortLinks[__('Date Added')] = 'added';
     <div class="item-meta">
     <?php if (metadata('item', 'has files')): ?>
     <div class="item-img">
-        <?php echo link_to_item(item_image()); ?>
+        <?php $itemTitle = metadata('item', array('Dublin Core', 'Title'), array('no_escape' => true)); ?>
+        <?php echo link_to_item(item_image(null, array('alt' => $itemTitle))); ?>
     </div>
     <?php endif; ?>
 
