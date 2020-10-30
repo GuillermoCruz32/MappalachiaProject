@@ -23,6 +23,7 @@
     <!-- Stylesheets -->
     <?php
     queue_css_url('//fonts.googleapis.com/css?family=Roboto+Slab:300,400,500,700,300italic,400italic,500italic,700italic');
+    queue_css_url('//fonts.googleapis.com/css?family=Amatic+SC:300,400,500,700,300italic,400italic,500italic,700italic');
     queue_css_file(array('iconfonts', 'normalize', 'mappalachiaTheme'), 'screen');
     queue_css_file('print', 'print');
     echo head_css();
