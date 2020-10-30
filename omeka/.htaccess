@@ -10,7 +10,7 @@
 #
 # Note: This should only be enabled for development or debugging. Keep this
 # line commented for production sites.
-# 
+#
 SetEnv APPLICATION_ENV development
 
 # ------------- #
@@ -25,6 +25,9 @@ RewriteEngine on
 # RewriteBase /
 
 # Allow direct access to files (except PHP files)
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -d
+RewriteCond %{REQUEST_URI} !/$
+RewriteRule ^ http://other.com%{REQUEST_URI}/ [redirect=temp,last]
 RewriteCond %{REQUEST_FILENAME} -f
 RewriteRule !\.(php[0-9]?|phtml|phps)$ - [C]
 RewriteRule .* - [L]
