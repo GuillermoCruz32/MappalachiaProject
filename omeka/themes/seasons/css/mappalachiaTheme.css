@@ -1229,9 +1229,12 @@ Table of Contents
     color: #000000; }
   .summer #content > h1 {
     color: #000000;
-    font-family: "Amatic SC";}
+    font-family: "Amatic SC";
+    font-size: 1.125rem;}
   .summer #content h2 {
-    border-color: #ffe0e0; }
+    border-color: #ffe0e0;
+    font-family: "Amatic SC";
+    font-size: 1.125rem; }
   .summer #content > div, .summer #content #primary > div, .summer #content #sidebar > div,
   .summer #content #advanced-search-form > div, .summer #content #exhibit-pages {
     border-color: #07811B; }
