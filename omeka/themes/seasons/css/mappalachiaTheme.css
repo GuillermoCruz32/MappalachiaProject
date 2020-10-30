@@ -1193,7 +1193,9 @@ Table of Contents
     background-color: #fff; }
   .summer nav.top {
     background-color: #FCF283;
-    border-width: 1px 0px 1px 0px solid #07811B; }
+    border-width: 1px 0px 1px 0px;
+    border-color: #07811B;
+    border-style: solid;}
     .summer nav.top li:hover a {
       color: #07811B; }
     .summer nav.top a:link, .summer nav.top a:visited {
