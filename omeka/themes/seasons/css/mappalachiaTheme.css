@@ -1199,7 +1199,8 @@ Table of Contents
     .summer nav.top li:hover a {
       color: #07811B; }
     .summer nav.top a:link, .summer nav.top a:visited {
-      color: #000000; }
+      color: #000000;
+      font-weight: bold;}
     .summer nav.top a:active, .summer nav.top a:hover {
       color: #3C8F8C; }
     .summer nav.top .nav-item > a:focus,
