@@ -20,7 +20,7 @@
     <?php if ((get_theme_option('Item FileGallery') == 1) && metadata('item', 'has files')): ?>
     <div id="itemfiles" class="element">
         <h2><?php echo __('Files'); ?></h2>
-        <?php echo item_image_gallery('link' => array('target' => '_blank'); ?>
+        <?php echo item_image_gallery(array('link' => array('target' => '_blank'))); ?>
     </div>
     <?php endif; ?>
 
