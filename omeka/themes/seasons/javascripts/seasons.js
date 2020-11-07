@@ -19,7 +19,6 @@ if (!Seasons) {
         $("nav.top a").each(function() {
             var el = $(this);
             if (el.parents('ul ul').length) {
-                console.log("here in first if");
                 var parentCount = el.parents("ul").length;
                 var dashes = new Array(parentCount).join('- ');
                 $("<option />", {
@@ -27,31 +26,22 @@ if (!Seasons) {
                     "text":  dashes + el.text()
                 }).appendTo("nav select");
             } else {
-                console.log("here in second if");
-		console.log(el.attr("href"));
-		if (el.attr("href") == "https://libraryguides.berea.edu/archives"){
-	            $("<option />", {
-                   	"value": el.attr("href"),
-                    	"text": el.text(),
-			"target":"_blank"
-                	}).appendTo("nav.top select");
-		}
-		else{
-                $("<option />", {
+		            if (el.attr("href") == "https://libraryguides.berea.edu/archives"){
+	                 $("<option />", {
+                   	 "value": el.attr("href"),
+                     "text": el.text(),
+			               "target":"_blank"
+                	  }).appendTo("nav.top select");
+		            } else {
+                    $("<option />", {
                     "value": el.attr("href"),
                     "text": el.text()
-                }).appendTo("nav.top select");
-		}
+                    }).appendTo("nav.top select");
+		            }
             }
-            console.log("here");
+
             $("nav.top select").change(function() {
-              var currentUrl = $(this).find("option:selected").val()
-              console.log(currentUrl, "currentURL");
-              if (currentUrl == "https://libraryguides.berea.edu/archives"){
-                window.open('currentUrl','_blank');
-              } else {
                 window.location = $(this).find("option:selected").val();
-              }
             });
         });
     }
