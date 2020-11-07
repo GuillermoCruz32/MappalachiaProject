@@ -19,6 +19,7 @@ if (!Seasons) {
         $("nav.top a").each(function() {
             var el = $(this);
             if (el.parents('ul ul').length) {
+                console.log("here in first if");
                 var parentCount = el.parents("ul").length;
                 var dashes = new Array(parentCount).join('- ');
                 $("<option />", {
@@ -26,6 +27,7 @@ if (!Seasons) {
                     "text":  dashes + el.text()
                 }).appendTo("nav select");
             } else {
+                console.log("here in second if");
                 $("<option />", {
                     "value": el.attr("href"),
                     "text": el.text()
