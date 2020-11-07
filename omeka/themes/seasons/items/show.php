@@ -5,6 +5,7 @@
 <div id="primary">
 
     <?php if ((get_theme_option('Item FileGallery') == 0) && metadata('item', 'has files')): ?>
+    <?php echo files_for_item(array('imageSize' => 'fullsize')); ?>
     <?php echo files_for_item(array('linkAttributes' => array('target' => '_blank'))); ?>
     <?php endif; ?>
 
