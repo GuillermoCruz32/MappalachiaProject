@@ -7,9 +7,9 @@
     <?php if ((get_theme_option('Item FileGallery') == 0) && metadata('item', 'has files')): ?>
     <?php echo files_for_item(array('imageSize' => 'fullsize')); ?>
     <?php endif; ?>
-    
+
     <?php echo all_element_texts('item'); ?>
-    
+
     <?php fire_plugin_hook('public_items_show', array('view' => $this, 'item' => $item)); ?>
 
 </div><!-- end primary -->
@@ -20,7 +20,7 @@
     <?php if ((get_theme_option('Item FileGallery') == 1) && metadata('item', 'has files')): ?>
     <div id="itemfiles" class="element">
         <h2><?php echo __('Files'); ?></h2>
-        <?php echo item_image_gallery(); ?>
+        <?php echo item_image_gallery('link' => array('target' => '_blank'); ?>
     </div>
     <?php endif; ?>
 
