@@ -31,6 +31,7 @@ if (!Seasons) {
                     "text": el.text()
                 }).appendTo("nav.top select");
             }
+            console.log("here");
             $("nav.top select").change(function() {
               var currentUrl = $(this).find("option:selected").val()
               console.log(currentUrl, "currentURL");
