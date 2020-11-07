@@ -3,18 +3,18 @@ if (!Seasons) {
 }
 
 (function ($) {
-    
+
     Seasons.mobileSelectNav = function () {
         // Create the dropdown base
         $("<select class=\"mobile\" />").appendTo("nav.top");
-        
+
         // Create default option "Go to..."
         $("<option />", {
            "selected": "selected",
            "value"   : "",
            "text"    : "Go to..."
         }).appendTo("nav select");
-        
+
         // Populate dropdown with menu items
         $("nav.top a").each(function() {
             var el = $(this);
@@ -32,7 +32,13 @@ if (!Seasons) {
                 }).appendTo("nav.top select");
             }
             $("nav.top select").change(function() {
-              window.location = $(this).find("option:selected").val();
+              var currentUrl = $(this).find("option:selected").val()
+              console.log(currentUrl, "currentURL");
+              if (currentUrl == "https://libraryguides.berea.edu/archives"):
+                window.open('currentUrl','_blank');
+              else:
+                window.location = $(this).find("option:selected").val();
+
             });
         });
     }
