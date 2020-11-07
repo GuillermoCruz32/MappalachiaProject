@@ -11,7 +11,7 @@
             <?php endif; ?>
         </div>
 
-        <p><?php echo __('Proudly powered by <a href="http://omeka.org" style="color:#FCF283">Omeka</a>.'); ?></p>
+        <p><?php echo __('Proudly powered by <a href="http://omeka.org" style="color:#FCF283" target="_blank">Omeka</a>.'); ?></p>
 
     <?php fire_plugin_hook('public_footer', array('view' => $this)); ?>
 
