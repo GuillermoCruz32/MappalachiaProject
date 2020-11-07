@@ -34,11 +34,11 @@ if (!Seasons) {
             $("nav.top select").change(function() {
               var currentUrl = $(this).find("option:selected").val()
               console.log(currentUrl, "currentURL");
-              if (currentUrl == "https://libraryguides.berea.edu/archives"):
+              if (currentUrl == "https://libraryguides.berea.edu/archives"){
                 window.open('currentUrl','_blank');
-              else:
+              } else {
                 window.location = $(this).find("option:selected").val();
-
+              }
             });
         });
     }
