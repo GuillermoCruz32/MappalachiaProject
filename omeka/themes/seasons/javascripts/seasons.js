@@ -28,10 +28,20 @@ if (!Seasons) {
                 }).appendTo("nav select");
             } else {
                 console.log("here in second if");
+		console.log(el.attr("href"));
+		if (el.attr("href") == "https://libraryguides.berea.edu/archives"){
+	            $("<option />", {
+                   	"value": el.attr("href"),
+                    	"text": el.text(),
+			"target":"_blank"
+                	}).appendTo("nav.top select");
+		}
+		else{
                 $("<option />", {
                     "value": el.attr("href"),
                     "text": el.text()
                 }).appendTo("nav.top select");
+		}
             }
             console.log("here");
             $("nav.top select").change(function() {
