@@ -25,6 +25,7 @@ jQuery(document).ready(function () {
     Omeka.skipNav();
     Omeka.megaMenu("#top-nav");
     Seasons.mobileSelectNav();
+    Seasons.webNav();
 });
 </script>
 

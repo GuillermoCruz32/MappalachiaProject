@@ -3,6 +3,11 @@ if (!Seasons) {
 }
 
 (function ($) {
+	Seasons.webNav = function () {
+		$("a[href='https://libraryguides.berea.edu/archives']").attr("target", "_blank");
+	}
+})(jQuery);
+(function ($) {
 
     Seasons.mobileSelectNav = function () {
         // Create the dropdown base
