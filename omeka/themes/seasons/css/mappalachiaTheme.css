@@ -1200,6 +1200,7 @@ Table of Contents
       color: #07811B; }
     .summer nav.top a:link, .summer nav.top a:visited {
       color: #000000;
+      padding-left: 0px;
       font-weight: bold;}
     .summer nav.top a:active, .summer nav.top a:hover {
       color: #3C8F8C; }
