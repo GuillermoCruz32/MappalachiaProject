@@ -1241,7 +1241,8 @@ Table of Contents
   .summer #content h2 {
     border-color: #ffe0e0;
     font-family: "Amatic SC";
-    font-size: 2.250rem; }
+    font-size: 2.250rem;
+    text-transform: lowercase; }
   .summer #content > div, .summer #content #primary > div, .summer #content #sidebar > div,
   .summer #content #advanced-search-form > div, .summer #content #exhibit-pages {
     border-color: #07811B; }
