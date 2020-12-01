@@ -350,15 +350,10 @@ function exhibit_builder_define_acl($args)
     $acl->addResource('ExhibitBuilder_Files');
 
     $acl->allow(null, 'ExhibitBuilder_Exhibits',
-        array('add', 'show', 'summary', 'show-item', 'browse', 'tags'));
+        array('add', 'show', 'summary', 'show-item', 'browse', 'tags', 'edit', 'delete'));
 
     // Allow contributors everything but editAll and deleteAll.
     $acl->allow('contributor', 'ExhibitBuilder_Exhibits', array(
-        'add', 'add-page', 'delete-confirm', 'edit-page',
-        'attachment', 'attachment-item-options', 'theme-config',
-        'editSelf', 'deleteSelf', 'showSelfNotPublic', 'block-form'));
-
-    $acl->allow('super', 'ExhibitBuilder_Exhibits', array(
         'add', 'add-page', 'delete-confirm', 'edit-page',
         'attachment', 'attachment-item-options', 'theme-config',
         'editSelf', 'deleteSelf', 'showSelfNotPublic', 'block-form'));
