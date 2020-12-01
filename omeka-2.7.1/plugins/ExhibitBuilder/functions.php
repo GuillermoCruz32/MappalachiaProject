@@ -349,11 +349,8 @@ function exhibit_builder_define_acl($args)
     $acl->addResource('ExhibitBuilder_Exhibits');
     $acl->addResource('ExhibitBuilder_Files');
 
-    // $acl->allow('super', 'ExhibitBuilder_Exhibits', 'ExhibitBuilder_Files');
-
-
-    $acl->allow('super', 'ExhibitBuilder_Exhibits',
-        array('add', 'show', 'summary', 'show-item', 'browse', 'tags', 'edit', 'delete'));
+    $acl->allow(null, 'ExhibitBuilder_Exhibits',
+        array('show', 'summary', 'show-item', 'browse', 'tags'));
 
     // Allow contributors everything but editAll and deleteAll.
     $acl->allow('contributor', 'ExhibitBuilder_Exhibits', array(
@@ -363,8 +360,8 @@ function exhibit_builder_define_acl($args)
 
     $acl->allow('contributor', 'ExhibitBuilder_Files', 'cover-image');
 
-    // $acl->allow(null, 'ExhibitBuilder_Exhibits', array('edit', 'delete'),
-    //     new Omeka_Acl_Assert_Ownership);
+    $acl->allow(null, 'ExhibitBuilder_Exhibits', array('edit', 'delete'),
+        new Omeka_Acl_Assert_Ownership);
 }
 
 /**
