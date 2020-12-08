@@ -110,7 +110,7 @@
 .fancybox-nav a:hover {
 
   background-color: transparent;
-	text-decoration: none; 
+	text-decoration: none;
 }
 
 .fancybox-nav {
@@ -156,6 +156,8 @@
 
 .fancybox-nav:hover span {
 	visibility: visible;
+	background-color: transparent;
+	text-decoration: none; 
 }
 
 .fancybox-tmp {
