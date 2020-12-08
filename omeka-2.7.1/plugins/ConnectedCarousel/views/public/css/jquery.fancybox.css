@@ -107,12 +107,6 @@
 	z-index: 8040;
 }
 
-.fancybox-nav a:hover {
-
-  background-color: transparent;
-	text-decoration: none;
-}
-
 .fancybox-nav {
 	position: absolute;
 	top: 0;
@@ -156,8 +150,6 @@
 
 .fancybox-nav:hover span {
 	visibility: visible;
-	background-color: transparent;
-	text-decoration: none; 
 }
 
 .fancybox-tmp {
